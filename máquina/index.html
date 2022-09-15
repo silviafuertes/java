@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Máquina expendedora</title>
+	<link rel="stylesheet" type="text/css" href="css/Style.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script src="js/funciones.js"></script>
+</head>
+<body>
+	<center><br><br><br><br><br><br>
+		<div class="container"  align="center" id="divc">
+			<div class="row" align="center" >
+				<br><h5>MAQUINA DISPENSADORA</h5><br>
+				<div class="col-sm-3">
+					<div class="card" style="width: 16rem;">
+						  <img src="https://th.bing.com/th/id/R.24fb6d0b909bcd137cc042b52c4c752a?rik=FBkzXNyvtedzWg&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<br><h5 class="card-title">Papa Margarita</h5>
+						    	<p class="card-text" id="disp_papa"	>Disponible: </p>
+						    	<p class="card-text">Precio: $ 1.700</p>
+						    	<!-- <label>Disponible:</label><br>
+						    	<label>Precio: $ </label><br><br> -->
+						    	<div class="col.sm-6"> 
+								    <input type="button" name="bcompapa" id="bcompapa" onclick="Boton_comprarpapa()" value="Comprar" class="btn btn-primary">
+								    <input type="button" name="babaspapa" id="babaspapa" onclick="Boton_abaspapa()" value="Abastecer" class="btn btn-primary">
+								 </div>
+						  	</div>
+					</div>
+				</div>
+				<!-- <div class="col-sm-3"> -->
+					<div class="col-sm-3">
+						<div class="card" style="width: 16rem;">
+							<img src="https://jumbocolombiafood.vteximg.com.br/arquivos/ids/171503-1000-1000/7702090029864-20-281-29.jpg?v=636111275146370000" class="card-img-top" alt="...">
+							  	<div class="card-body">
+							    	<br><h5 class="card-title">Jugo Hit</h5>
+							    	<p class="card-text" id="disp_jugo">Disponible: </p>
+						    		<p class="card-text">Precio: $ 2.400</p>
+						    		<!-- <label>Disponible:</label><br>
+						    		<label>Precio: $ </label><br><br> -->
+							    	<div class="col.sm-6"> 
+									    <input type="button" name="bcompjugo" id="bcomjugo" onclick="Boton_comprarjugo()" value="Comprar" class="btn btn-primary">
+									    <input type="button" name="babasjugo" id="babasjugo" onclick="Boton_abasjugo()" value="Abastecer" class="btn btn-primary">
+								 	</div>
+							  	</div>
+						</div>
+					</div>
+				<!-- </div> -->
+				<!-- <div class="col-sm-3"> -->
+					<div class="col-sm-3">
+						<div class="card" style="width: 16rem;">
+						  	<img src="https://tiaecuador.vteximg.com.br/arquivos/ids/162831-1000-1000/262733000.jpg?v=636947538761230000" class="card-img-top" alt="...">
+						  		<div class="card-body">
+						    		<br><h5 class="card-title">Chocolatina Jet</h5>
+						    		<p class="card-text" id="disp_choco">Disponible: </p>
+						    		<p class="card-text">Precio: $ 700</p>
+						    		<!-- <label>Disponible:</label><br>
+						    		<label>Precio: $ </label><br><br> -->
+						    		<div class="col.sm-6"> 
+									    <input type="button" name="bcomchoco" id="bcomchoco" onclick="Boton_comprarchoco()" value="Comprar" class="btn btn-primary">
+									    <input type="button" name="babaschoco" id="babaschoco" onclick="Boton_abaschoco()" value="Abastecer" class="btn btn-primary">
+								 	</div>
+						  		</div>
+						</div>
+					</div>
+				<!-- </div> -->
+				<!-- <div class="col-sm-3"> -->
+					<div class="col-sm-3">
+						<div class="card" style="width: 16rem;">
+						  	<img src="img/galletas.jpg" class="card-img-top" alt="...">
+						  	<div class="card-body">
+						    	<br><h5 class="card-title">Galletas</h5>
+						    	<p class="card-text" id="disp_gall">Disponible: </p>
+						    	<p class="card-text">Precio: $ 800</p>
+						    	<!-- <label>Disponible:</label><br>
+						    	<label>Precio: $ </label><br><br> -->
+						    	<div class="col.sm-6"> 
+								    <input type="button" name="bcomgalle" id="bcomgalle" onclick="Boton_comprargalle()" value="Comprar" class="btn btn-primary">
+								    <input type="button" name="babasgalle" id="babasgalle" onclick="Boton_abasgalle()" value="Abastecer" class="btn btn-primary">
+								 </div>
+						  </div>
+						</div>
+					</div><br><br>
+				<!-- </div> -->
+					<script type="text/javascript" src="js/functions.js"></script>
+			</div><br>
+			<div class="col.sm-4"> 
+				    	<input type="button" name="butcant" id="butcant" onclick="Boton_cantidadventas()" value="Cantidad de Ventas" class="btn btn-primary">
+				    	<input type="button" name="butvalor" id="butvalor" onclick="Boton_valor()" value="Valor total de ventas" class="btn btn-primary">
+				    	<input type="button" name="butuni" id="butuni" onclick="Boton_uni()" value="Unidades vendidas" class="btn btn-primary">
+
+				  	</div>
+		</div>
+	</center>
+</body>
+</html>
